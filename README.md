@@ -5,9 +5,9 @@ This compose use MySQL as it's data base.
 #### securing(basic auth only)
 Change the username and password please create a very complex password
 
-N8N_BASIC_AUTH_ACTIVE=true
+``N8N_BASIC_AUTH_ACTIVE=true
 N8N_BASIC_AUTH_USER=user
-N8N_BASIC_AUTH_PASSWORD=password
+N8N_BASIC_AUTH_PASSWORD=password``
 
 #### MySQL
 The location of the MySQL server, MySQL Should be on Private Subnet
