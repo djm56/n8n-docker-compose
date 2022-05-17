@@ -5,19 +5,19 @@ This compose use MySQL as it's data base.
 #### securing(basic auth only)
 Change the username and password please create a very complex password
 
-``N8N_BASIC_AUTH_ACTIVE=true
-N8N_BASIC_AUTH_USER=user
+``N8N_BASIC_AUTH_ACTIVE=true  
+N8N_BASIC_AUTH_USER=user  
 N8N_BASIC_AUTH_PASSWORD=password``
 
 #### MySQL
 The location of the MySQL server, MySQL Should be on Private Subnet
 
-DB_TYPE=mysqldb
-DB_MYSQLDB_DATABASE=n8n
-DB_MYSQLDB_HOST=mysql
-DB_MYSQLDB_PORT=3306
-DB_MYSQLDB_USER=user
-DB_MYSQLDB_PASSWORD=password
+DB_TYPE=mysqldb  
+DB_MYSQLDB_DATABASE=n8n  
+DB_MYSQLDB_HOST=mysql  
+DB_MYSQLDB_PORT=3306  
+DB_MYSQLDB_USER=user  
+DB_MYSQLDB_PASSWORD=password  
 
 #### timezone
 GENERIC_TIMEZONE="Africa/Johannesburg"
