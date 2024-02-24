@@ -6,6 +6,7 @@ services:
     restart: always
     volumes:
       - ./.n8n:/root/.n8n
+      - ./local-files:/root/files
     ports:
       - "5678:5678"
     env_file:
