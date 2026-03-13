@@ -43,6 +43,10 @@ If you need to work with local files they can be used inside local-files folder.
 
 ## Start docker-compose#
 
+To adjsut the permissions so the files are created
+
+``chown -R 1000:1000 .n8n local-files``
+
 n8n can now be started via:
 
 ``sudo docker-compose up -d``
@@ -50,3 +54,4 @@ n8n can now be started via:
 To stop the container:
 
 ``sudo docker-compose stop``
+

@@ -3,10 +3,10 @@ services:
   n8n-server:
     image: n8nio/n8n
     container_name: n8n
-    restart: always
+    restart: unless-stopped
     volumes:
-      - ./.n8n:/root/.n8n
-      - ./local-files:/root/files
+      - ./.n8n:/home/node/.n8n
+      - ./local-files:/home/node/files
     ports:
       - "5678:5678"
     env_file:
